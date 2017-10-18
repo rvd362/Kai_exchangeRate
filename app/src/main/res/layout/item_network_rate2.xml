@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3.3">
+
+        <TextView
+            android:id="@+id/txtBank"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center"
+            android:layout_weight="1.3"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            tools:text="國泰世華銀行"/>
+
+
+        <TextView
+            android:id="@+id/txtBkBuy"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            tools:text="即期買入"/>
+        <TextView
+            android:id="@+id/txtBkSell"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            tools:text="即期賣出"/>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"/>
+
+
+
+
+
+</LinearLayout>
